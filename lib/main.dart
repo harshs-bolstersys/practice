@@ -23,3 +23,18 @@ class MyApp extends StatelessWidget {
     );
   }
 }
+
+/// Find the largest number in the list
+
+// void main() {
+//   List<int> numbers = [5, 12, 8, 25, 3];
+
+//   int largest = numbers[0];
+
+//   for (int num in numbers) {
+//     if (num > largest) {
+//       largest = num;
+//     }
+//   }
+//   print("Largest Number: $largest");
+// }
