@@ -42,6 +42,7 @@ class _PostSimpleApiViewState extends State<PostSimpleApiView> {
                   }
                   return null;
                 },
+                obscureText: true,
                 decoration: InputDecoration(labelText: 'Password', border: OutlineInputBorder()),
               ),
               SizedBox(height: 16),
