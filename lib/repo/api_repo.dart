@@ -2,8 +2,8 @@ import 'dart:convert';
 
 import 'package:practical/api/api_end_points.dart';
 import 'package:practical/api/api_handler.dart';
-import 'package:practical/view/get_api/model/get_api_model.dart';
-import 'package:practical/view/post_api/model/post_api_model.dart';
+import 'package:practical/view/get_api_riverpod/model/get_api_model.dart';
+import 'package:practical/view/post_api_riverpod/model/post_api_model.dart';
 
 class AuthRepo extends BaseService {
   /// Get API Repo

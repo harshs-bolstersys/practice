@@ -1,7 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:practical/service/storage_services.dart';
-import 'package:practical/view/post_api/view/post_api_view.dart';
+import 'package:practical/view/get_api_simple/view/get_simple_view.dart';
+import 'package:practical/view/post_api_riverpod/view/post_api_view.dart';
+import 'package:practical/view/post_api_simple/view/post_simple_view.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
@@ -19,7 +21,7 @@ class MyApp extends StatelessWidget {
       title: 'Flutter Demo',
       debugShowCheckedModeBanner: false,
       theme: ThemeData(colorScheme: .fromSeed(seedColor: Colors.deepPurple)),
-      home: const PostApiView(),
+      home: const PostSimpleApiView(),
     );
   }
 }

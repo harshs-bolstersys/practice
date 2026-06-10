@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:practical/view/post_api/controller/post_api_controller.dart';
-import 'package:practical/view/post_api/view/home_view.dart';
+import 'package:practical/view/post_api_riverpod/controller/post_api_controller.dart';
+import 'package:practical/view/post_api_riverpod/view/home_view.dart';
 
 class PostApiView extends ConsumerStatefulWidget {
   const PostApiView({super.key});

@@ -1,6 +1,6 @@
 import 'package:flutter_riverpod/legacy.dart';
 import 'package:practical/repo/api_repo.dart';
-import 'package:practical/view/get_api/model/get_api_model.dart';
+import 'package:practical/view/get_api_riverpod/model/get_api_model.dart';
 
 class GetApiState {
   final List<GetApiModel> getApiList;
